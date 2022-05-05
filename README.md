@@ -41,7 +41,7 @@ Here is one-click example with [Traefik](https://traefik.io/) router with automa
 Please change domain, path and secrets for your needs and make sure that DNS was propagated for your domain, otherwise ssl certificate generation will be fail.
 
 ```bash
-docker create network traefik
+docker network create traefik
 docker-compose up -d
 ```
 
